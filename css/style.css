@@ -1,0 +1,120 @@
+/*variables*/
+:root {
+    --color-a: #32c3ad;
+    --color-b: #9ee2d6;
+    --color-c: #9886e9;
+    --color-d: #8361c2;
+    --color-e: #fffeee;
+    --color-text-1: #fff;
+    --color-title-2: #111;
+    --color-text-2: #444;
+    --radius: 0.25rem;
+}
+
+/*reset style default*/
+div, nav, article, header, footer, body {
+    margin:  0px;
+    padding: 0px;
+}
+
+ul, li, ol, a, p {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+/*Text Style*/
+body{
+    font-family: sans-serif;
+    color: var(--color-text-2);
+}
+
+article{
+    padding: 2rem 1.5rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+.title-2{
+    color: var(--color-title-2);
+}
+/*topnav style*/
+.topnav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0rem;
+}
+.topnav-logo{
+    width: 90px;
+}
+.topnav-menu{
+    display:flex;
+}
+.topnav-menu ul{
+    display: flex;
+    flex-direction: row;
+}
+.topnav-acount ul{
+    display: flex;
+    flex-direction: row;
+}
+.menu-item{
+    padding: 0.5rem 1rem;
+    margin: 0rem 0.25rem;
+    font-weight: bold;
+    color:  var(--color-c);
+}
+.menu-item:hover{
+    background-color: var(--color-c);
+    color: var(--color-e);
+    border-radius: var(--radius);
+}
+
+/*btn style*/
+.btn{
+    padding: 0.5rem 0.75rem;
+    margin: 0rem 0.25rem;
+    font-weight: bold;
+    border-radius: var(--radius);
+}
+.btn-bg-a{
+    background-color: var(--color-a);
+    color: var(--color-text-1);
+}
+.btn-bg-b{
+    background-color: var(--color-c);
+    color: var(--color-text-1);
+}
+
+/*hero style*/
+.hero{
+    margin: 0.1rem 0rem;
+}
+.hero-image{
+    min-width: 100%;
+    max-height: 60%;
+}
+
+/*footer style*/
+.footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.5rem 0rem 1rem 0rem;
+    background:linear-gradient(var(--color-c), var(--color-d));
+    color: var(--color-e);
+    font-weight:lighter;
+}
