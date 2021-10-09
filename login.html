@@ -6,40 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="media/favicon.ico" type="image/x-icon">
     <title>Login | SGSST Tool</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!--Navbar-->
-    <header>
+    <header class="topnav">
         <a href="index.html">
-            <img src="media/logotipo.png" alt="logo">
+            <img src="media/logotipo.png" alt="logo" class="topnav-logo">
         </a>
-        <nav>
+        <nav class="topnav-menu">
             <ul>
-                <a href="index.html">
+                <a href="index.html" class="menu-item">
                     <li>Home</li>
                 </a>
-                <a href="services.html">
+                <a href="services.html" class="menu-item">
                     <li>Services</li>
                 </a>
-                <a href="planes.html">
+                <a href="planes.html" class="menu-item">
                     <li>Planes</li>
                 </a>
-                <a href="about.html">
+                <a href="about.html" class="menu-item">
                     <li>About</li>
                 </a>
             </ul>
         </nav>
-        <ul>
-            <a href="login.html">
-                <ol>Login</ol>
-            </a>
-            <a href="register.html">
-                <ol>Sign Up</ol>
-            </a>
-        </ul>
+        <div class="topnav-acount">
+            <ul>
+                <a href="login.html" class="btn btn-bg-a">
+                    <ol>Login</ol>
+                </a>
+                <a href="register.html" class="btn btn-bg-b">
+                    <ol>Sign Up</ol>
+                </a>
+            </ul>
+        </div>
     </header>
-    <br>
-    <br>
+    
     <!--Hero-->
     <form action="get">
         <div>
@@ -50,39 +52,19 @@
             <label for="email">Email: </label>
             <input type="email" name="email" id="email">
         </div>
-        <br>
+        
         <div>
             <label for="passwd">Password: </label>
             <input type="password" name="passwd" id="passwd">
         </div>
-        <br>
+        
         <div>
             <button type="submit">Login</button>
         </div>
     </form>
-    <br>
-    <br>
+    
     <!--Footer-->
-    <footer>
-        <div>
-            <strong>
-                <p>contact</p>
-            </strong>
-            <ul>
-                <li>
-                    <cite>Colombia, Bogota D.C.</cite>
-                </li>
-                <li>
-                    <address>Cll False # 1 - 23</address>
-                </li>
-                <li>
-                    <address>email@notfalse.com</address>
-                </li>
-                <li>
-                    <cite>Phone: +57 321 456 78 90</cite>
-                </li>
-            </ul>
-        </div>
+    <footer class="footer">
         <div>
             <p>Copyright © 2021 by SGSST Tool S.A.S, All Rights Reserved.</p>
         </div>
