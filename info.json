@@ -1,0 +1,44 @@
+{
+    "courses": [{
+        "id": 1,
+        "title": "Trabajo Seguro en Alturas",
+        "description": "Todo trabajador que realice trabajo en alturas, con riesgos de caída y que realice desplazamientos horizontales y/o verticales por las estructuras incluidas las técnicas de suspensión utilizando diferentes equipos de protección contra caídas y sistemas de anclajes portátiles",
+        "total_hours": "40 horas",
+        "date": {"day": 20, "month": 11, "year": 2021}
+    },
+    {   
+        "id": 2,
+        "title": "Trabajos en Calientes",
+        "description": "Desarrolle el conocimiento y entendimiento que necesita para evitar accidentes, lesiones, y tragedias en lugares de trabajo donde se llevan a cabo trabajos en caliente. Este curso accesible en línea da una mirada profunda a los peligros de trabajos en caliente junto con los procedimientos de seguridad vitales que pueden ayudar a promover la seguridad de los trabajadores y reducir riesgos. En menos de dos horas, trabajando en línea a su propio ritmo, obtendrá la información que necesita para mantener su lugar de trabajo seguro durante todo tipo de actividades clasificadas como trabajo en caliente – tales como procesos de soldadura y aleaciones, tratamiento térmico, pulido, descongelamiento de tuberías, sujetadores accionados por pólvora, remachado en caliente, revestimiento para techos aplicado con soplete, y otras aplicaciones similares que usan o producen chispas, llamas, o calor.",
+        "total_hours": "60 horas",
+        "date": {"day": 21, "month": 1, "year": 2022}
+    },
+    {   
+        "id": 3,
+        "title": "Primeros auxilios laborales",
+        "description": "Los accidentes laborales son generalmente más relevantes por su frecuencia que no por su gravedad. Debemos tener muy en cuenta que siempre estamos expuestos a ellos y por ese motivo es de gran importancia saber prevenir posibles accidentes y actuar de la forma más adecuada en cada situación, prestando la ayuda en primeros auxilios que requiere la persona accidentada.",
+        "total_hours": "20 horas",
+        "date": {"day": 12, "month": 1, "year": 2022}
+    },
+    {
+        "id": 4,
+        "title": "Fundamentos de seguridad humana y protección contra incendios",
+        "description": "El Curso en línea de los fundamentos de seguridad humana y protección contra incendios fue creado para principiantes para ayudar a cerrar la brecha de conocimiento y capacidades e inculcar un sentido de conciencia y urgencia alrededor de la importancia de priorizar la educación de fundamentos de seguridad. El curso resalta las características de los sistemas de protección contra incendios y seguridad humana en edificios. Este curso ofrece una amplia introducción a los conceptos y procedimientos fundamentales y sienta las bases para una instrucción más avanzada.",
+        "total_hours": "30 horas",
+        "date": {"day": 1, "month": 11, "year": 2021}
+    },
+    {
+        "id": 5,
+        "title": "Inducción de sistema de seguridad y trabajo",
+        "description": "Induccion de Sistema de Seguridad y Salud en el Trabajo ha sido diseñado en coherencia con las políticas de protección de los trabajadores definidas por el Ministerio de Trabajo de Colombia, y en coherencia con la normativa se establece su obligatoriedad en la implementación por parte de todos los empleadores y consiste en el desarrollo de un proceso lógico y por etapas, basado en la mejora continua, e incluye la política, la organización, la planificación, la aplicación, la evaluación, la auditoría y las acciones de mejora con el objetivo de anticipar, reconocer, evaluar y controlar los riesgos que puedan afectar la seguridad y la salud en los espacios laborales.",
+        "total_hours": "60 horas",
+        "date": {"day": 25, "month": 10, "year": 2021}
+    },
+    {
+        "id": 6,
+        "title": "Manejo sustancias químicas",
+        "description": "El manejo seguro de sustancias químicas requiere una transformación cultural en los trabajadores que las manipulan y debemos partir de la desaprensión de conceptos equivocados sobre lo que son los mismos productos químicos y sus efectos sobre la salud. En torno al manejo de sustancias se han creado mitos que sobre exponen al trabajador y en algunos casos se exacerban los efectos adversos de las sustancias.",
+        "total_hours": "40 horas",
+        "date": {"day": 12, "month": 3, "year": 2022}
+    }]
+}
