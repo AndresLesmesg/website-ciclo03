@@ -40,5 +40,34 @@
         "description": "El manejo seguro de sustancias químicas requiere una transformación cultural en los trabajadores que las manipulan y debemos partir de la desaprensión de conceptos equivocados sobre lo que son los mismos productos químicos y sus efectos sobre la salud. En torno al manejo de sustancias se han creado mitos que sobre exponen al trabajador y en algunos casos se exacerban los efectos adversos de las sustancias.",
         "total_hours": "40 horas",
         "date": {"day": 12, "month": 3, "year": 2022}
+    },
+    {
+        "id": 7,
+        "title": "5 S. Orden y Limpieza",
+        "description": "Orden y Limpieza en Casa está especialmente diseñado para todas aquellas personas que estén realmente interesadas en aprender a organizar y ordenar su oficina teniendo en cuenta el minimalismo, en el que siempre se pretende conservar el espacio. Con ello, podremos disfrutar de una forma de vida libre de desorden que impulse nuestra productividad, mejorando el bienestar y convirtiéndote en un modelo a seguir para otros.",
+        "total_hours": "15 horas",
+        "date": {"day": 30, "month": 10, "year": 2021}
+    },
+    {
+        "id": 8,
+        "title": "Curso de manejo de estrés",
+        "description": "En la actualidad las demandas del mundo laboral están saturando a las personas con tal frecuencia que se vuelve una situación cotidiana, generando condiciones de estrés e inconformidad laboral, las cuales pueden afectar las habilidades profesionales.",
+        "total_hours": "20 horas",
+        "date": {"day": 15, "month": 11, "year": 2021}   
+    },
+    {
+        "id": 9,
+        "title": "Liderazgo",
+        "description": "Aprenderás la definición de liderazgo, y haremos un recorrido desde sus orígenes hasta sus primeras teorías y conceptualizaciones, que tuvieron su máxima expresión en la teoría del Great Man de Thomas Carlyle. Pasando por las perspectivas primarias de los grupos humanos en la antigua Grecia, Oriente y Occidente. Todos ellos centrados en los rasgos de líder.",
+        "total_hours": "36 horas",
+        "date": {"day": 20, "month": 11, "year": 2021}  
+    },
+    {
+        "id": 10,
+        "title": "Plan de Emergencias",
+        "description": "Diseñar un plan de emergencias es algo básico y necesario en la mayoría de ámbitos de trabajo. Con este curso aprenderás a evaluar todos los posibles riesgos del entorno y a crear con esta información una metodología de actuación en caso de desastre. Aprende a aplicar las medidas de prevención generales y hacer frente a los distintos casos de emergencias que pueden ocurrir en tu centro de trabajo",
+        "total_hours": "80 horas",
+        "date": {"day": 25, "month": 11, "year": 2021}  
+
     }]
 }
