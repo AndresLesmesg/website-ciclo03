@@ -24,6 +24,11 @@ ul, li, ol, a, p {
     padding: 0px;
 }
 /*Text Style*/
+
+html {
+    height: 100%;
+}
+
 body{
     font-family: sans-serif;
     color: var(--color-text-2);
