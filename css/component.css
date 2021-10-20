@@ -7,6 +7,9 @@
 .justify-center{
     justify-content: center;
 }
+.justify-between{
+    justify-content: space-between;
+}
 
 .d-flex{
     display: flex;
@@ -27,16 +30,17 @@
     padding:10px;
 }
 /*cards*/
-.card-info{
-    width: 100%;
-    padding: 10px 10px 10px 10px;
-}
 
 .card-title{
     font-weight: bold;
     font-style: italic;
 }
 
+.card-info {
+    padding: 1rem;
+    width:  100%;
+}
+/*card small*/
 .card-sm{
     display: flex;
     width: 25rem;
@@ -71,17 +75,31 @@
     background-color:cornflowerblue;
     
 }
-
+/*card-mid*/
 .card-md{
     display: flex;
     width: 45rem;
     border-radius: 0.25rem;
-    background-color: var(--color-b);
-    color: va(--color-text-1);
-    padding-bottom: 5px;
+    border: solid 3px var(--color-c);
+    color: var(--color-text-2);
+    padding-bottom: 2rem;
     margin-top: 10px;
+
+}
+.card-md:hover{
+    border: solid var(--color-a);
+}
+.card-md .card-info {
+    padding: 0rem 2rem;
+}
+.card-md .card-info div{
+    margin-top: 0.75rem;
 }
 
+.card-md-details{
+    font-size: 0.9rem;
+    font-style: italic;
+}
 .card-md-label{
     margin-right: 10px;
 }

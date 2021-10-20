@@ -88,13 +88,15 @@ function addCourse(id){
                     <span class="card-md-label f-blod">Descripción:</span>
                     <p class="card-md-details">${data.courses[id].description}</p>
                 </div>
-                <div class="d-flex">
-                    <span class="card-md-label f-blod">Fecha de inicio:</span>
-                    <span>${data.courses[id].date.day}/${data.courses[id].date.month}/${data.courses[id].date.year}</span>
-                </div>
-                <div class="d-flex">
-                    <span class="card-md-label f-blod">Inicia en:</span>
-                    <span>${calDate.date} ${calDate.tail}</span>
+                <div class="d-flex justify-between">
+                    <div class="d-flex">
+                        <span class="card-md-label f-blod">Fecha de inicio:</span>
+                        <span>${data.courses[id].date.day}/${data.courses[id].date.month}/${data.courses[id].date.year}</span>
+                    </div>
+                    <div class="d-flex">
+                        <span class="card-md-label f-blod">Inicia en:</span>
+                        <span>${calDate.date} ${calDate.tail}</span>
+                    </div>
                 </div>
             </div>
             <div class="card-md-btn">
