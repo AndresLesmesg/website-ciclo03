@@ -76,7 +76,7 @@ function calculateDate(day, month, year){
 function addCourse(id){
     calDate = calculateDate(data.courses[id].date.day, data.courses[id].date.month, data.courses[id].date.year);
     
-    cardMd += `
+    cardMd = `
         <div class="card-md">
             <div class="card-info">
                 <h3 class="card-title">${data.courses[id].title}</h3>
@@ -103,7 +103,7 @@ function addCourse(id){
                 </span>
             </div>
         </div>
-    `
+    ` + cardMd
     containerMd.innerHTML = cardMd; 
 
 }
@@ -116,7 +116,6 @@ function addEvent(){
         console.log(id);
         card[i].addEventListener("click",function(){addCourse(id-1)});
     }
-
 }
 
 setTimeout(addEvent, 200);
